@@ -6,7 +6,7 @@ UI design library
 `build.gradle(:app)`:
 
     def latest_version = "0.3.2"
-    implementation 'com.github.fornewid:neumorphism:$latest_version'
+    implementation "com.github.fornewid:neumorphism:$latest_version"
     
 `settings.gradle`:
     

@@ -3,10 +3,6 @@ UI design library
 
 # Dependency
 
-Home page:
-
-    https://github.com/fornewid/neumorphism
-
 `build.gradle(:app)`:
 
     def latest_version = "0.3.2"
@@ -22,5 +18,10 @@ Home page:
             maven { url "https://jitpack.io" }
         }
     }
+    
+Home page: 
+
+    https://github.com/fornewid/neumorphism
+    
 # Usage
 you can check the `master` branch.

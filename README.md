@@ -22,3 +22,5 @@ Home page:
             maven { url "https://jitpack.io" }
         }
     }
+# Usage
+you can check the `master` branch.

@@ -1,7 +1,7 @@
 # Neumorphism
 UI design library
 
-# Usage
+# Dependency
 
 Home page:
 

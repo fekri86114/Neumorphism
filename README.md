@@ -2,6 +2,11 @@
 UI design library
 
 # Usage
+
+Home page:
+
+    https://github.com/fornewid/neumorphism
+
 `build.gradle(:app)`:
 
     def latest_version = "0.3.2"

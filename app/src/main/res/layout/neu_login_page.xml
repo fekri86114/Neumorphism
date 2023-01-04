@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/new_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Welcome"
+            android:textColor="@color/text_white"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="14dp"
+            android:text="let's get started"
+            android:textColor="@color/text_white"
+            android:textSize="20sp" />
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginEnd="16dp"
+            app:neumorph_backgroundColor="@color/new_background"
+            app:neumorph_shadowColorDark="@color/new_shadow1"
+            app:neumorph_shadowColorLight="@color/new_shadow2"
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="basin">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/new_background"
+                android:gravity="center"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:padding="16dp"
+                android:textColor="@color/text_white"
+                android:textColorHint="@color/text_gray" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphCardView
+            android:id="@+id/layout_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            app:neumorph_backgroundColor="@color/new_background"
+            app:neumorph_shadowColorDark="@color/new_shadow1"
+            app:neumorph_shadowColorLight="@color/new_shadow2"
+            app:neumorph_shadowElevation="3dp"
+            app:neumorph_shapeType="basin">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/new_background"
+                android:gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:padding="16dp"
+                android:textColor="@color/text_white"
+                android:textColorHint="@color/text_gray" />
+
+        </soup.neumorphism.NeumorphCardView>
+
+        <soup.neumorphism.NeumorphButton
+            android:id="@+id/btn_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/new_background"
+            android:padding="26dp"
+            android:text="Sign in"
+            android:textColor="@color/text_white"
+            app:neumorph_backgroundColor="@color/new_background"
+            app:neumorph_lightSource="leftTop"
+            app:neumorph_shadowColorDark="@color/new_shadow1"
+            app:neumorph_shadowColorLight="@color/new_shadow2"
+            app:neumorph_shadowElevation="2dp"
+            app:neumorph_shapeType="basin"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            app:neumorph_shapeAppearance="@style/neuButton" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnMessage.setOnClickListener {
-            Toast.makeText(this, "Hooray!", Toast.LENGTH_SHORT).show()
+            Toast.makeText(this, "Hooray!", Toast.LENGTH_SHORT).show() // output --> Show 'Hooray!'
         }
 
     }

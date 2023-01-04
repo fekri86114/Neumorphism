@@ -18,11 +18,10 @@
 
     </style>
 
+    <!--  NeuButton style  -->
     <style name="neuButton">
-
         <item name="neumorph_cornerFamily">rounded</item>
         <item name="neumorph_cornerSize">8dp</item>
-
     </style>
 
 </resources>
